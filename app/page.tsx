@@ -2,6 +2,7 @@ import { Hero } from "@/components";
 import Image from "next/image";
 import { CustomButton } from "@/components";
 import { HiArrowRight } from "react-icons/hi2";
+import Info from "@/components/Info";
 
 export default function Home() {
   return (
@@ -21,6 +22,35 @@ export default function Home() {
           />
         }
       />
+      <div className="flex flex-col gap-6">
+        <Info
+          Heading="Our Value Proposition"
+          Paragraph="We take pride in high quality work and efficiency in all our projects.
+        Every assignment is important to us and we take time to understand the
+        objectives of the project to ensure we deliver satisfaction and value
+        for money."
+          href="#"
+          LinkTitle="See our approach"
+        />
+        <Info
+          Heading="About Us"
+          Paragraph="We take pride in high quality work and efficiency in all our projects.
+        Every assignment is important to us and we take time to understand the
+        objectives of the project to ensure we deliver satisfaction and value
+        for money."
+          href="#"
+          LinkTitle="See our approach"
+        />
+        <Info
+          Heading="Our Clients"
+          Paragraph="We take pride in high quality work and efficiency in all our projects.
+        Every assignment is important to us and we take time to understand the
+        objectives of the project to ensure we deliver satisfaction and value
+        for money."
+          href="#"
+          LinkTitle="See our approach"
+        />
+      </div>
     </div>
   );
 }

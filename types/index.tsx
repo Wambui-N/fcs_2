@@ -11,3 +11,10 @@ export interface HeroProps {
     Paragraph: string;
     button?: React.ReactNode;
 }
+
+export interface InfoProps {
+    Heading: string;
+    Paragraph: string;
+    href: string;
+    LinkTitle: string;
+}
