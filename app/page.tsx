@@ -1,8 +1,5 @@
-import { Hero } from "@/components";
-import Image from "next/image";
-import { CustomButton } from "@/components";
+import { Hero, CustomButton, Info, ProjectsFeature } from "@/components";
 import { HiArrowRight } from "react-icons/hi2";
-import Info from "@/components/Info";
 
 export default function Home() {
   return (
@@ -51,6 +48,7 @@ export default function Home() {
           LinkTitle="See our approach"
         />
       </div>
+      <ProjectsFeature />
     </div>
   );
 }
