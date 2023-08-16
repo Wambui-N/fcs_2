@@ -3,7 +3,7 @@ import { HiArrowRight } from "react-icons/hi2";
 
 export default function Home() {
   return (
-    <div className="responsive">
+    <div className="responsive flex flex-col gap-6">
       <Hero
         Heading="Environment/ tourism planning, development projects and technical writing specialists"
         Paragraph="Looking for an expert to handle your project? Talk to us before talking to somebody else, 
@@ -48,7 +48,20 @@ export default function Home() {
           LinkTitle="See our approach"
         />
       </div>
-      <ProjectsFeature />
+      <ProjectsFeature
+        ProjectImg={[
+          "Bird Img",
+          "Giraffe Img",
+          "Flamingo Img",
+          "WildBeast Img",
+        ]}
+        ProjectTitle={[
+          "Amboseli Ecosystem Management Plan",
+          "Amboseli Ecosystem Management Plan",
+          "Amboseli Ecosystem Management Plan",
+          "Amboseli Ecosystem Management Plan",
+        ]}
+      />
     </div>
   );
 }

@@ -18,3 +18,8 @@ export interface InfoProps {
     href: string;
     LinkTitle: string;
 }
+
+export interface ProjectsFeatureProps {
+    ProjectImg: string[];
+    ProjectTitle: string[];
+}
