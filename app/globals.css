@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.responsive {
+  @apply mx-[1.5rem] md:mx-[3rem] lg:mx-[12rem];
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -24,4 +27,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+nav {
+  height: auto;
 }
