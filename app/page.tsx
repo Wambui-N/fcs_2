@@ -17,7 +17,7 @@ export default function Home() {
             title="Contact Us"
             buttonStyle="bg-fcs_orange text-fcs_white hover:bg-fcs_white hover:text-fcs_orange rounded-full"
             href="#"
-            size="lg"
+            size="md"
             icon={<HiArrowRight />}
           />
         }
