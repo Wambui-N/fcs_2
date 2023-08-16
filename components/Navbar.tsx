@@ -78,12 +78,13 @@ export default function App() {
           </Link>
         </NavbarItem>
       </NavbarContent>
-      <div className="flex justify-end items-center p-0">
+      <div className="flex justify-end items-center">
         <NavbarItem className="mr-[1.5rem] md:mr-[3rem] lg:mr-[12rem]">
           <CustomButton
             title="Contact Us"
             buttonStyle="bg-fcs_white border border-fcs_black rounded-full text-sm font-medium text-fcs_black"
             href="#"
+            size="sm"
           />
         </NavbarItem>
         <NavbarMenuToggle

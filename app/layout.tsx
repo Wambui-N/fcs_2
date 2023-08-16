@@ -19,6 +19,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script defer src="https://friconix.com/cdn/friconix.js">
+          {" "}
+        </script>
+      </head>
       <body className={`${montserrat.className} bg-fcs_white`}>
         <Providers>
           <Navbar />
