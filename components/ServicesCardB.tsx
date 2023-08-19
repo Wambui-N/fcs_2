@@ -4,13 +4,13 @@ import { ServiceCardProps } from "../types";
 
 const ServiceCardA = ({ Photo, Title, Paragraph, points }: ServiceCardProps) => {
   return (
-    <div className="grid grid-cols-2 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       <Image
         src={`/${Photo} Img.png`}
         alt="Picture of the author"
         width={500}
         height={500}
-        className="h-auto w-full rounded-xl object-cover"
+        className="h-3/4 md:h-auto w-full rounded-xl object-cover"
       />
       <div className="flex flex-col items-start self-center gap-1">
         <h6 className="uppercase pb-2 font-normal text-base">{Title}</h6>
