@@ -53,27 +53,27 @@ export default function App() {
       </div>
       <NavbarContent className="hidden md:flex gap-4" justify="center">
         <NavbarItem>
-          <Link className="text-fcs_orange font-normal text-base" href="#">
+          <Link className="text-fcs_orange font-normal text-base" href="/">
             Home
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-fcs_orange font-normal text-base" href="#">
+          <Link className="text-fcs_orange font-normal text-base" href="/About">
             About Us
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-fcs_orange font-normal text-base" href="#">
+          <Link className="text-fcs_orange font-normal text-base" href="/Services">
             Our Services
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link className="text-fcs_orange font-normal text-base" href="#">
+          <Link className="text-fcs_orange font-normal text-base" href="/Portfolio">
             Portfolio
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-fcs_orange font-normal text-base" href="#">
+          <Link className="text-fcs_orange font-normal text-base" href="/Blog">
             Blog
           </Link>
         </NavbarItem>

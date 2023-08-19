@@ -15,6 +15,7 @@ export interface HeroProps {
 export interface InfoProps {
     Heading: string;
     Paragraph: string;
+    points?: string[];
     href: string;
     LinkTitle: string;
 }
@@ -22,4 +23,26 @@ export interface InfoProps {
 export interface ProjectsFeatureProps {
     ProjectImg: string[];
     ProjectTitle: string[];
+}
+
+export interface ActiveLinkProps {
+    children: React.ReactNode;
+    href: string;
+}
+
+export interface SarahProps {
+    Potrait: string;
+    points?: string[];
+    Name: string;
+    Paragraph: string;
+}
+
+export interface DanielProps {
+    Potrait: string;
+    points?: string[];
+    Name: string;
+    Paragraph: string;
+    Paragraph2: string;
+    points2?: string[];
+    Paragraph3: string;
 }

@@ -19,7 +19,7 @@ const ProjectsFeature = ({
               width={1000}
               height={1000}
               alt="project image"
-              className="rounded-xl w-full h-auto "
+              className="rounded-xl w-full h-auto"
             />
             <h6 className="font-light text-xl capitalize">
               {ProjectTitle[index]}

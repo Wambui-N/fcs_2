@@ -31,19 +31,21 @@ export default function Home() {
         />
         <Info
           Heading="About Us"
-          Paragraph="We take pride in high quality work and efficiency in all our projects.
-        Every assignment is important to us and we take time to understand the
-        objectives of the project to ensure we deliver satisfaction and value
-        for money."
+          Paragraph="We are experts in environmental conservation planning and tourism project
+          management and development. We assist clients to develop management
+          plans, carry out impact assessments or feasibility studies and business
+          plans for tourism projects.
+          We are also a writing power house for writing and editing technical reports
+          or institutional publications for conservation and development institutions"
           href="#"
           LinkTitle="See our approach"
         />
         <Info
           Heading="Our Clients"
-          Paragraph="We take pride in high quality work and efficiency in all our projects.
-        Every assignment is important to us and we take time to understand the
-        objectives of the project to ensure we deliver satisfaction and value
-        for money."
+          Paragraph="We work for a wide range of public and private institutions, mainly those
+          involved in wildlife conservation, environment and tourism. We also work
+          for individual investors in tourism and wildlife conservancies and
+          elsewhere."
           href="#"
           LinkTitle="See our approach"
         />
