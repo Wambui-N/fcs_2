@@ -68,7 +68,7 @@ export default function Home() {
           "KTF Environmental Committee",
           "Ecotourism Kenya Environmental Committee of KTF",
         ]}
-        Paragraph2="Daniel is an active consultant in:"
+        Paragraph2="Daniel is an extensively experienced and a highly engaged consultant in a wide array of areas, including:"
         points2={[
           "Technical Writing and Editing",
           "Customer Service Excellence in Hospitality",

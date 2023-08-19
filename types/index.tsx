@@ -16,8 +16,8 @@ export interface InfoProps {
     Heading: string;
     Paragraph: string;
     points?: string[];
-    href: string;
-    LinkTitle: string;
+    href?: string;
+    LinkTitle?: string;
 }
 
 export interface ProjectsFeatureProps {
@@ -45,4 +45,11 @@ export interface DanielProps {
     Paragraph2: string;
     points2?: string[];
     Paragraph3: string;
+}
+
+export interface ServiceCardProps {
+    Photo: string;
+    Title: string;
+    Paragraph?: string;
+    points: string[];
 }
