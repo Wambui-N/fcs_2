@@ -10,7 +10,7 @@ const ServiceCardA = ({ Photo, Title, Paragraph, points }: ServiceCardProps) => 
         alt="Picture of the author"
         width={500}
         height={500}
-        className="h-3/4 md:h-auto w-full rounded-xl object-cover"
+        className="order-last md:order-first rounded-xl w-screen md:w-full h-auto"
       />
       <div className="flex flex-col items-start self-center gap-1">
         <h6 className="uppercase pb-2 font-normal text-base">{Title}</h6>

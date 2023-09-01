@@ -19,7 +19,7 @@ const ServiceCardA = ({ Photo, Title, Paragraph, points}:ServiceCardProps) => {
         alt="Picture of the author"
         width={500}
         height={500}
-        className="w-3/4 md:w-full h-auto rounded-xl self-center object-cover"
+        className="rounded-xl w-screen md:w-full h-auto"
       />
     </div>
   );
