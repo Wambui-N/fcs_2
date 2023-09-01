@@ -6,7 +6,7 @@ import { InfoProps } from "@/types";
 
 const Info = ({ Heading, Paragraph, points, href, LinkTitle }: InfoProps) => {
   return (
-    <div className="flex flex-col items-start md:items-center self-stretch gap-1">
+    <div className="flex flex-col items-center self-stretch gap-1">
       <h1 className="uppercase pb-1 font-normal text-base">{Heading}</h1>
       <p className="text-center">{Paragraph}</p>
       {points && ( 
