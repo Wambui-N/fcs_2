@@ -6,5 +6,6 @@ import ProjectsFeature from "./ProjectsFeature";
 import Daniel from "./Daniel";
 import Sarah from "./Sarah";
 import ServiceCardA from "./ServiceCardA";
+import ServiceCardB from "./ServicesCardB";
 
-export { Navbar, CustomButton, Hero, Info, ProjectsFeature, Daniel, Sarah, ServiceCardA };
+export { Navbar, CustomButton, Hero, Info, ProjectsFeature, Daniel, Sarah, ServiceCardA, ServiceCardB };

@@ -1,5 +1,4 @@
-import { Hero, ServiceCardA } from "@/components";
-import ServiceCardB from "@/components/ServicesCardB";
+import { Hero, ServiceCardA, ServiceCardB } from "@/components";
 
 export default function about() {
   return (
