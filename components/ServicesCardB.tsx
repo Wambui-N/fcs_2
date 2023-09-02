@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { ServiceCardProps } from "@/types";
 
-const ServiceCardA = ({ Photo, Title, Paragraph, points }: ServiceCardProps) => {
+const ServiceCardB = ({ Photo, Title, Paragraph, points }: ServiceCardProps) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       <Image
@@ -27,4 +27,4 @@ const ServiceCardA = ({ Photo, Title, Paragraph, points }: ServiceCardProps) => 
   );
 };
 
-export default ServiceCardA;
+export default ServiceCardB;
