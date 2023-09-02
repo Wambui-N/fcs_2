@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { ServiceCardProps } from "../types";
+import { ServiceCardProps } from "@/types";
 
 const ServiceCardA = ({ Photo, Title, Paragraph, points}:ServiceCardProps) => {
   return (
