@@ -17,18 +17,14 @@ import {
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = [
-    "Profile",
-    "Dashboard",
-    "Activity",
-    "Analytics",
-    "System",
-    "Deployments",
-    "My Settings",
-    "Team Settings",
-    "Help & Feedback",
-    "Log Out",
-  ];
+  const menuItems: { [key: string]: string } = {
+    Home: "/",
+    About: "/About",
+    Services: "/Services",
+    Portfolio: "/Portfolio",
+    Blog: "/Blog",
+  };
+  
 
   return (
     <Navbar
@@ -82,8 +78,8 @@ export default function App() {
         <NavbarItem className="mr-[1.5rem] md:mr-[3rem] lg:mr-[12rem]">
           <CustomButton
             title="Contact Us"
-            buttonStyle="bg-fcs_white border border-fcs_black rounded-full text-sm font-medium text-fcs_black"
-            href="#"
+            buttonStyle="bg-fcs_orange rounded-full text-sm font-medium text-fcs_white hover:bg-fcs_white hover:text-fcs_orange"
+            href="/Contact"
             size="sm"
           />
         </NavbarItem>
@@ -93,18 +89,11 @@ export default function App() {
         />
       </div>
       <NavbarMenu>
-        {menuItems.map((item, index) => (
+        {Object.entries(menuItems).map(([item, href], index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
-              color={
-                index === 2
-                  ? "primary"
-                  : index === menuItems.length - 1
-                  ? "danger"
-                  : "foreground"
-              }
-              className="w-full"
-              href="#"
+              className="w-full text-fcs_black font-normal text-base"
+              href={href}
               size="lg"
             >
               {item}

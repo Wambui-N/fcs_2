@@ -7,5 +7,7 @@ import Daniel from "./Daniel";
 import Sarah from "./Sarah";
 import ServiceCardA from "./ServiceCardA";
 import ServiceCardB from "./ServicesCardB";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
-export { Navbar, CustomButton, Hero, Info, ProjectsFeature, Daniel, Sarah, ServiceCardA, ServiceCardB };
+export { Navbar, CustomButton, Hero, Info, ProjectsFeature, Daniel, Sarah, ServiceCardA, ServiceCardB, Contact, Footer };
