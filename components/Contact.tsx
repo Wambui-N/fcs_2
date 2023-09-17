@@ -27,7 +27,7 @@ const Contact = () => {
         Paragraph="For any additional information or if you're interested in partnering with us, please don't hesitate to get in touch."
       />
       <div className="responsive">
-        <div className="">
+        <div className=" h-[70vh]">
           <form>
             <div className="relative mb-6" data-te-input-wrapper-init>
               <input
