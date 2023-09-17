@@ -66,9 +66,9 @@ export default function Home() {
           ]}
           ProjectTitle={[
             "Amboseli Ecosystem Management Plan",
-            "Amboseli Ecosystem Management Plan",
-            "Amboseli Ecosystem Management Plan",
-            "Amboseli Ecosystem Management Plan",
+            "Solai Sanctuary Management Plan",
+            "Lake Bogoria National Reserve",
+            "Great Maasai Mara Ecosystem Management Plan",
           ]}
         />
       </div>
