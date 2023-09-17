@@ -20,7 +20,7 @@ export default function Home() {
             <CustomButton
               title="Contact Us"
               buttonStyle="bg-fcs_orange text-fcs_white hover:bg-fcs_white hover:text-fcs_orange rounded-full"
-              href="#"
+              href="/Contact"
               size="md"
               icon={<HiArrowRight />}
             />

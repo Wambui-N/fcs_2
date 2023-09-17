@@ -24,12 +24,12 @@ const ProjectsFeature = ({
             <h6 className="font-light text-xl capitalize">
               {ProjectTitle[index]}
             </h6>
-            <Link
+            {/* <Link
               href="#"
               className="text-fcs_orange font-medium hover:text-fcs_orange/75"
             >
               See case study
-            </Link>
+            </Link> */}
           </div>
         ))}
       </div>
