@@ -22,7 +22,7 @@ export default function App() {
     About: "/About",
     Services: "/Services",
     Portfolio: "/Portfolio",
-    Blog: "/Blog",
+    // Blog: "/Blog",
   };
   
 
@@ -68,11 +68,11 @@ export default function App() {
             Portfolio
           </Link>
         </NavbarItem>
-        <NavbarItem>
+        {/* <NavbarItem>
           <Link className="text-fcs_orange font-normal text-base" href="/Blog">
             Blog
           </Link>
-        </NavbarItem>
+        </NavbarItem> */}
       </NavbarContent>
       <div className="flex justify-end items-center">
         <NavbarItem className="mr-[1.5rem] md:mr-[3rem] lg:mr-[12rem]">

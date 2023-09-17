@@ -15,8 +15,8 @@ const ServiceCardA = ({ Photo, Title, Paragraph, points}:ServiceCardProps) => {
         </ul>
       </div>
       <Image
-        src={`/${Photo} Img.png`}
-        alt="Picture of the author"
+        src={`/${Photo}`}
+        alt=" "
         width={500}
         height={500}
         className="rounded-xl w-screen md:w-full h-auto"

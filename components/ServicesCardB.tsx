@@ -6,8 +6,8 @@ const ServiceCardB = ({ Photo, Title, Paragraph, points }: ServiceCardProps) => 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       <Image
-        src={`/${Photo} Img.png`}
-        alt="Picture of the author"
+        src={`/${Photo}`}
+        alt=" "
         width={500}
         height={500}
         className="order-last md:order-first rounded-xl w-screen md:w-full h-auto"

@@ -24,8 +24,8 @@ const Footer = () => {
             alt="logo"
             width={600}
             height={600}
-            className="w-40"
-          />
+            className="max-w-[100px] md:max-w-[150px] lg:max-w-[150px] my-1"
+            />
           <p className="text-sm text-fcs_black/70">© 2023 FRONTLINE CONSULTING</p>
         </div>
       </div>

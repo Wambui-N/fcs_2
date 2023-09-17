@@ -14,7 +14,7 @@ export default function about() {
         />
         <div className="flex flex-col gap-12">
           <ServiceCardA
-            Photo="Antelope"
+            Photo="Antelope Img.png"
             Title="Development Projects"
             Paragraph="Frontline Ecosystem Services offers comprehensive Environmental, Conservation and Tourism Consultancy. These includes:"
             points={[
@@ -28,7 +28,7 @@ export default function about() {
             ]}
           />
           <ServiceCardB
-            Photo="Lioness"
+            Photo="Lioness Img.png"
             Title="EIA"
             points={[
               "Produce EIA reports",
@@ -37,7 +37,7 @@ export default function about() {
             ]}
           />
           <ServiceCardA
-            Photo="Elephant"
+            Photo="Elephant Img.png"
             Title="Mapping and cartography"
             points={[
               "Analysis of data",
@@ -47,7 +47,7 @@ export default function about() {
             ]}
           />
           <ServiceCardB
-            Photo="Lion"
+            Photo="Lion Img.png"
             Title="Training"
             points={[
               "Content development",
@@ -58,7 +58,7 @@ export default function about() {
             ]}
           />
           <ServiceCardA
-            Photo="Cheetah"
+            Photo="Cheetah Img.png"
             Title="Writing Services"
             points={[
               "Writing and editing technical reports",
@@ -69,7 +69,7 @@ export default function about() {
             ]}
           />
           <ServiceCardB
-            Photo="Tree"
+            Photo="Tree Img.png"
             Title="Marketing"
             points={[
               "Email marketing and e-newsletter development",
@@ -78,7 +78,7 @@ export default function about() {
             ]}
           />
           <ServiceCardA
-            Photo="Cub"
+            Photo="Cub Img.png"
             Title="Tourism"
             points={[
               "Project and business plans",
@@ -89,7 +89,7 @@ export default function about() {
             ]}
           />
           <ServiceCardB
-            Photo="Zebra"
+            Photo="Zebra Img.png"
             Title="Blogs"
             points={[
               "Writing conservation blogs",
