@@ -5,7 +5,7 @@ import { CustomButton } from "@/components";
 const Footer = () => {
   return (
     <div className="border-t-1 border-fcs_black/10 mt-8 mb-1">
-      <div className="responsive flex md:grid md:grid-cols-3 gap-4 pt-4">
+      <div className="responsive flex flex-col md:grid md:grid-cols-3 gap-4 pt-4">
         <div className="flex flex-col gap-4">
           <p className="text-sm">
             For any additional information or if you're interested in partnering
