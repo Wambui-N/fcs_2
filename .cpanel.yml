@@ -1,6 +1,6 @@
----
 deployment:
 tasks:
 - export DEPLOYPATH=/home/igmengct/public_html/
-- /bin/cp website/* $DEPLOYPATH
-- /bin/cp miscellanious/* $DEPLOYPATH
+-- export PROJECTROOT=/home/igmengct/repositories/fcs
+- /bin/cp $PROJECTROOT/website/* $DEPLOYPATH
+- /bin/cp $PROJECTROOT/miscellanious/* $DEPLOYPATH
