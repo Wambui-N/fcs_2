@@ -1,6 +1,6 @@
 ---
 deployment:
 tasks:
-- export DEPLOYPATH=/home/igmengct/public_html/frontline-consulting.co.ke/
+- export DEPLOYPATH=/home/igmengct/repositories/frontline-consulting.co.ke/
 - /bin/cp website/* $DEPLOYPATH
 - /bin/cp miscellanious/* $DEPLOYPATH
