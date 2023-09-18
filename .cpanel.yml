@@ -1,0 +1,6 @@
+---
+deployment:
+tasks:
+- export DEPLOYPATH=/home/igmengct/public_html/
+- /bin/cp website/* $DEPLOYPATH
+- /bin/cp miscellanious/* $DEPLOYPATH
