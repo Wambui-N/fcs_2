@@ -2,5 +2,4 @@
 deployment:
 tasks:
 - export DEPLOYPATH=/home/frontlineconsult/public_html/
-- /bin/cp website/* $DEPLOYPATH
-- /bin/cp miscellanious/* $DEPLOYPATH
+- /bin/cp * $DEPLOYPATH
