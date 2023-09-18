@@ -1,9 +1,14 @@
+import React, { MouseEventHandler } from "react";
+
+
 export interface ButtonProps {
-    href: string;
+    href?: string;
     buttonStyle: string;
     title: string;
     size: "sm" | "md" | "lg";
     icon?: React.ReactNode;
+    onClick?: MouseEventHandler<HTMLButtonElement>;
+    type?: "button" | "submit" | "reset" | undefined;
 }
 
 export interface HeroProps {
