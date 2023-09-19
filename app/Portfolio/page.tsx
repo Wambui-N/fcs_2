@@ -51,7 +51,7 @@ export default function about() {
         ]}
         Photo="Amboseli Eco.jpg"
       />
-      <div className="grid grid-cols-3 gap-8 my-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-12">
         <Image 
         src="/01.png"
         alt=" "
