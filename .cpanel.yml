@@ -1,5 +1,19 @@
 ---
 deployment:
-tasks:
-- export DEPLOYPATH=/home/frontlineconsult/public_html/
-- /bin/cp * $DEPLOYPATH
+  tasks:
+    - export DEPLOYPATH=/home/frontlineconsult/public_html/
+    - /bin/cp -r * $DEPLOYPATH
+
+    # Install dependencies (example for npm)
+    - cd $DEPLOYPATH
+    - npm install
+
+    # Set permissions (adjust as needed)
+    - chmod -R 755 $DEPLOYPATH
+    - chown -R yourusername:yourusername $DEPLOYPATH
+
+    # Handle errors (this is a basic example, you can customize it)
+    - if [ $? -ne 0 ]; then
+        echo "Deployment failed";
+        exit 1;
+      fi
