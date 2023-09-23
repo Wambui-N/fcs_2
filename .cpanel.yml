@@ -8,6 +8,7 @@ deployment:
     - cd $DEPLOYPATH
     - npm install
 
+
     # Set permissions (adjust as needed)
     - chmod -R 755 $DEPLOYPATH
     - chown -R yourusername:yourusername $DEPLOYPATH
