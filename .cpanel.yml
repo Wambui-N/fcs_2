@@ -11,7 +11,7 @@ deployment:
 
     # Set permissions (adjust as needed)
     - chmod -R 755 $DEPLOYPATH
-    - chown -R yourusername:yourusername $DEPLOYPATH
+    - chown -R yourusername:frontlineconsult $DEPLOYPATH
 
     # Handle errors (this is a basic example, you can customize it)
     - if [ $? -ne 0 ]; then
