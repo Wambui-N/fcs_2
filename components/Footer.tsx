@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         <div className="col-span-2 justify-self-end flex flex-col items-center gap-2">
           <Image
-            src="/Dark logo L.png"
+            src="/Dark Logo L.png"
             alt="logo"
             width={600}
             height={600}
