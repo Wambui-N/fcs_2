@@ -5,7 +5,7 @@ import { Montserrat } from "next/font/google";
 import { Providers } from "./providers";
 import { Footer, Navbar } from "@/components";
 
-const montserrat = Montserrat();
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Frontline Consulting",
