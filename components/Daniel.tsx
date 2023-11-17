@@ -27,11 +27,11 @@ const Daniel = ({
           </h5>
         </div>
         <div>
-          <p className="text-center">{Paragraph}</p>
+          <p className="">{Paragraph}</p>
           {points && (
             <ul className="marker:text-fcs_black/50 list-disc list-inside">
               {points.map((items, index) => (
-                <li className="list-inside text-center w-full py-1" key={index}>
+                <li className="list-inside w-full py-1" key={index}>
                   {items}
                 </li>
               ))}
@@ -39,17 +39,17 @@ const Daniel = ({
           )}{" "}
         </div>
         <div>
-          <p className="text-center">{Paragraph2}</p>
+          <p className="">{Paragraph2}</p>
           {points2 && (
             <ul className="marker:text-fcs_black/50 list-disc list-inside">
               {points2.map((items, index) => (
-                <li className="list-inside text-center w-full py-1" key={index}>
+                <li className="list-inside w-full py-1" key={index}>
                   {items}
                 </li>
               ))}
             </ul>
           )}
-          <p className="text-center">{Paragraph3}</p>
+          <p className="">{Paragraph3}</p>
         </div>
       </div>
     </div>

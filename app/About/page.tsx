@@ -21,39 +21,41 @@ export default function Home() {
         development, developing management, and business plans to marketing
         and writing."
         />
-        <Info
-          Heading="Our Mission"
-          Paragraph="Listen, simplifying and deliver quality planning and management projects"
-          href="#"
-          LinkTitle="See our approach"
-        />
-        <Info
-          Heading="Our Vision"
-          Paragraph="Frontline Consultants works to become your one stop shop for professional
+        <div className="flex flex-col gap-8">
+          <Info
+            Heading="Our Mission"
+            Paragraph="Listen, simplifying and deliver quality planning and management projects"
+            href="#"
+            LinkTitle="See our approach"
+          />
+          <Info
+            Heading="Our Vision"
+            Paragraph="Frontline Consultants works to become your one stop shop for professional
           support in project management and development:"
-          points={[
-            "We provide all environmental services, from assessment to audits",
-            "We do management plans for conservation areas suchconservancies and national parks/reserves",
-            "We develop business and management plans",
-            "We write and edit all the technical reports and business proposals",
-          ]}
-          href="#"
-          LinkTitle="See our approach"
-        />
-        <Info
-          Heading="Who Works With Us"
-          Paragraph="Contact us if:"
-          points={[
-            "You have a business plan that needs to be done right",
-            "You desire environmental services for your project to be handled by experts",
-            "You want your management projects and plans to be result oriented",
-            "You have a marketing and publicity campaign that you are not sure how to handle",
-            "You need to develop a business proposal for your important project in tourism or conservation",
-            "You have a technical report or institutional publication to write or edit",
-          ]}
-          href="#"
-          LinkTitle="See our approach"
-        />
+            points={[
+              "We provide all environmental services, from assessment to audits",
+              "We do management plans for conservation areas suchconservancies and national parks/reserves",
+              "We develop business and management plans",
+              "We write and edit all the technical reports and business proposals",
+            ]}
+            href="#"
+            LinkTitle="See our approach"
+          />
+          <Info
+            Heading="Who Works With Us"
+            Paragraph="Contact us if:"
+            points={[
+              "You have a business plan that needs to be done right",
+              "You desire environmental services for your project to be handled by experts",
+              "You want your management projects and plans to be result oriented",
+              "You have a marketing and publicity campaign that you are not sure how to handle",
+              "You need to develop a business proposal for your important project in tourism or conservation",
+              "You have a technical report or institutional publication to write or edit",
+            ]}
+            href="#"
+            LinkTitle="See our approach"
+          />
+        </div>
         <Hero Heading="Our Team" Paragraph="Get to know us." />
         <Daniel
           Potrait="Daniel"

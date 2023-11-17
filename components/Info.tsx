@@ -12,7 +12,7 @@ const Info = ({ Heading, Paragraph, points, href, LinkTitle }: InfoProps) => {
       {points && ( 
         <ul className="marker:text-fcs_black/50 list-disc list-inside">
           {points.map((items, index) => (
-            <li className="list-inside text-center w-full py-1" key={index}>{items}</li>
+            <li className="list-inside w-full py-1 px-20" key={index}>{items}</li>
           ))}
         </ul>
       )}

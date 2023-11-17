@@ -18,13 +18,13 @@ const Sarah = ({ points,Name,Paragraph,Potrait }: SarahProps) => {
         </h5>
       </div>
       <div>
-        <p className="text-center">
+        <p className="">
           {Paragraph}
         </p>
         {points && (
           <ul className="marker:text-fcs_black/50 list-disc list-inside">
             {points.map((items, index) => (
-              <li className="list-inside text-center w-full py-1" key={index}>
+              <li className="list-inside w-full py-1" key={index}>
                 {items}
               </li>
             ))}
